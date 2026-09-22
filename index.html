@@ -65,10 +65,53 @@
 </head>
 <body>
 
-  <h1>Who's Visiting</h1>
-<p>
-This is a webpage that reveals some information about the visiting client.
-</p>
+  <h1>Browser Identity</h1>
+
+<table style="border-collapse: collapse; width: 100%; max-width: 600px;">
+  <tbody>
+    <tr>
+      <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ddd;">
+        IP Address
+      </th>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+        <span id="ip4"></span>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ddd;">
+        User Agent
+      </th>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+        <span id="ua"></span>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ddd;">
+        Time Zone
+      </th>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+        <span id="tz"></span>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ddd;">
+        Platform
+      </th>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+        <span id="platform"></span>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding: 8px;">
+        Cookie
+      </th>
+      <td style="padding: 8px;">
+        <span id="cookie"></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <p>
 IP Address: <b><span id="ip4"></span></b>
 </p>
