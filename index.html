@@ -67,64 +67,84 @@
 
   <h1>Browser Identity</h1>
 
-<table style="border-collapse: collapse; width: 100%; max-width: 600px;">
+  <table style="
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+  font-family: Calibiri, Arial, sans-serif;
+">
   <tbody>
-    <tr>
-      <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ddd;">
+    <tr style="background-color: #f2f4f7;">
+      <th style="
+        width: 35%;
+        padding: 10px 14px;
+        text-align: left;
+        border: 1px solid #ddd;
+      ">
         IP Address
       </th>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+      <td style="padding: 10px 14px; border: 1px solid #ddd;">
         <span id="ip4"></span>
       </td>
     </tr>
-    <tr>
-      <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ddd;">
+
+    <tr style="background-color: #ffffff;">
+      <th style="
+        width: 35%;
+        padding: 10px 14px;
+        text-align: left;
+        border: 1px solid #ddd;
+      ">
         User Agent
       </th>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+      <td style="padding: 10px 14px; border: 1px solid #ddd;">
         <span id="ua"></span>
       </td>
     </tr>
-    <tr>
-      <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ddd;">
+
+    <tr style="background-color: #f2f4f7;">
+      <th style="
+        width: 35%;
+        padding: 10px 14px;
+        text-align: left;
+        border: 1px solid #ddd;
+      ">
         Time Zone
       </th>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+      <td style="padding: 10px 14px; border: 1px solid #ddd;">
         <span id="tz"></span>
       </td>
     </tr>
-    <tr>
-      <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ddd;">
+
+    <tr style="background-color: #ffffff;">
+      <th style="
+        width: 35%;
+        padding: 10px 14px;
+        text-align: left;
+        border: 1px solid #ddd;
+      ">
         Platform
       </th>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+      <td style="padding: 10px 14px; border: 1px solid #ddd;">
         <span id="platform"></span>
       </td>
     </tr>
-    <tr>
-      <th style="text-align: left; padding: 8px;">
+
+    <tr style="background-color: #f2f4f7;">
+      <th style="
+        width: 35%;
+        padding: 10px 14px;
+        text-align: left;
+        border: 1px solid #ddd;
+      ">
         Cookie
       </th>
-      <td style="padding: 8px;">
+      <td style="padding: 10px 14px; border: 1px solid #ddd;">
         <span id="cookie"></span>
       </td>
     </tr>
   </tbody>
 </table>
-
-<p>
-IP Address: <b><span id="ip4"></span></b>
-</p>
-<p>
-User Agent: <b><span id="ua"></span></b>    
-</p>
-<p>Time Zone: <b><span id="tz"></span></b>
-</p>
-<p>Platform: <b><span id="platform"></span></b>
-</p>
-<p>Cookie: <b><span id="cookie"></span></b>
-</p>
-
 
 <script>
     (function() {
