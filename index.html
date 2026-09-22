@@ -148,8 +148,7 @@
       document.getElementById("ua").textContent = ua || "unknown";
       document.getElementById("platform").textContent = platform || "unknown";
       document.getElementById("tz").textContent = tz || "unknown";
-      document.getElementById("cookie").textContent = document.cookie || "none";
-
+      
       // Fetch public IPv4 and IPv6 using ipify
       async function fetchIP(url, elId) {
         const el = document.getElementById(elId);
